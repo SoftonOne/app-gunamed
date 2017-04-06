@@ -1,4 +1,4 @@
-$(document).on("ready", init);// Inciamos el jquery
+$(document).on("ready", init);// Inciamos el jquery Patron Composite
 
 var email = "";
 
