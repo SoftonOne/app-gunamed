@@ -1,4 +1,5 @@
 <?php
+//Patron Creator
 	require "Conexion.php";
 
 	class Persona{
