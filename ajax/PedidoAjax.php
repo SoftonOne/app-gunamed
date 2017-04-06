@@ -1,5 +1,6 @@
 <?php
 
+// Model-View-Controller pattern
 session_start();
 
 switch ($_GET["op"]) {

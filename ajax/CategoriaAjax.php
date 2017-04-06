@@ -1,4 +1,5 @@
 <?php
+// Patron Factory pattern
 
 	session_start();
 

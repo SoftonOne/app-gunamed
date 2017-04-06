@@ -1,4 +1,5 @@
 <?php
+// Patron singleton
 	require "Conexion.php";
 
 	class articulo{

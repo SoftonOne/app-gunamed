@@ -1,4 +1,5 @@
 <?php
+//Mock objets pattern
 /**
  * PHPMailer - PHP email creation and transport class.
  * PHP Version 5.0.0

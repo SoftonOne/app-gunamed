@@ -1,4 +1,5 @@
 <?php
+// Model-View-Controller pattern
 	require "Conexion.php";
 	
 	class Pedido{
