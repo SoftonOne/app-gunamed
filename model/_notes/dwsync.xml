@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Articulo.php" server="C:/xampp/htdocs/inventario/" local="130938921155579995" remote="130938921150000000" Dst="0" />
+<file name="Categoria.php" server="C:/xampp/htdocs/inventario/" local="131098080843456316" remote="131098080840000000" Dst="0" />
+<file name="Conexion.php" server="C:/xampp/htdocs/inventario/" local="131096431484117368" remote="131096431480000000" Dst="0" />
+<file name="Configuracion.php" server="C:/xampp/htdocs/inventario/" local="130973719378135606" remote="130973719370000000" Dst="0" />
+<file name="ConsultasCompras.php" server="C:/xampp/htdocs/inventario/" local="131099852222581750" remote="131099852220000000" Dst="0" />
+<file name="ConsultasVentas.php" server="C:/xampp/htdocs/inventario/" local="131083023556163090" remote="131083023550000000" Dst="0" />
+<file name="Credito.php" server="C:/xampp/htdocs/inventario/" local="131099838156036352" remote="131099838150000000" Dst="0" />
+<file name="DocSucursal.php" server="C:/xampp/htdocs/inventario/" local="130975888730269276" remote="130975888730000000" Dst="0" />
+<file name="Empleado.php" server="C:/xampp/htdocs/inventario/" local="130938911991938569" remote="130938911990000000" Dst="0" />
+<file name="Grafico.php" server="C:/xampp/htdocs/inventario/" local="130971528462890626" remote="130971528460000000" Dst="0" />
+<file name="ingresararticulos.php" server="C:/xampp/htdocs/inventario/" local="131098850814155354" remote="131098850810000000" Dst="0" />
+<file name="Ingreso.php" server="C:/xampp/htdocs/inventario/" local="131099748307085019" remote="131099748300000000" Dst="0" />
+<file name="Pedido.php" server="C:/xampp/htdocs/inventario/" local="131099794899230224" remote="131099794890000000" Dst="0" />
+<file name="Persona.php" server="C:/xampp/htdocs/inventario/" local="130938931280391171" remote="130938931280000000" Dst="0" />
+<file name="Sucursal.php" server="C:/xampp/htdocs/inventario/" local="131014802377312022" remote="131014802370000000" Dst="0" />
+<file name="Tipo_Documento.php" server="C:/xampp/htdocs/inventario/" local="130938916563755730" remote="130938916560000000" Dst="0" />
+<file name="Unidad_Medida.php" server="C:/xampp/htdocs/inventario/" local="130938924494279063" remote="130938924490000000" Dst="0" />
+<file name="Usuario.php" server="C:/xampp/htdocs/inventario/" local="131098029660546350" remote="131098029660000000" Dst="0" />
+<file name="Venta.php" server="C:/xampp/htdocs/inventario/" local="131015160929613641" remote="131015160920000000" Dst="0" />
+</dwsync>
