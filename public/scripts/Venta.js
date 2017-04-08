@@ -34,7 +34,8 @@ function init(){
     }
 
 	function SaveOrUpdate(e){
-		e.preventDefault();// para que no se recargue la pagina
+		e.preventDefault();
+        // para que no se recargue la pagina
 
         if ($("#txtSerieVent").val() != "" && $("#txtNumeroVent").val() != "") {
             var detalle =  JSON.parse(consultarDet());
@@ -54,9 +55,9 @@ function init(){
 
             $.post("./ajax/VentaAjax.php?op=SaveOrUpdate", data, function(r){// llamamos la url por post. function(r). r-> llamada del callback
                 if ($("#cboTipoComprobante").val() == "TICKET") {
-                        //window.open("/solventas/Reportes/exTicket.php?id=" + $("#txtIdPedido").val() , "TICKET" , "width=396,height=430,scrollbars=NO");
-                       // window.open("localhost/solventas/Reportes/exTicket.php?id=" + $("#txtIdPedido").val());
-                        //location.href = "/solventas/Reportes/exTicket.php?id=" + $("#txtIdPedido").val();
+                    //window.open("/solventas/Reportes/exTicket.php?id=" + $("#txtIdPedido").val() , "TICKET" , "width=396,height=430,scrollbars=NO");
+                    // window.open("localhost/solventas/Reportes/exTicket.php?id=" + $("#txtIdPedido").val());
+                    //location.href = "/solventas/Reportes/exTicket.php?id=" + $("#txtIdPedido").val();
                     window.open("/solventas/Reportes/exTicket.php?id=" + $("#txtIdPedido").val(), '_blank');
                 }
                 if ($("#cboTipoVenta").val() == "Contado") {
