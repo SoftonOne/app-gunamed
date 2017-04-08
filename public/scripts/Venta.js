@@ -75,7 +75,7 @@ function init(){
                       callback: function(result) {
                         if (result !== null) {                                             
                            $.post("./ajax/VentaAjax.php?op=EnviarCorreo", {result:result, idPedido : $("#txtIdPedido").val()}, function(r){
-                              bootbox.alert(r);
+                            bootbox.alert(r);
                            })                     
                         } 
                       }
@@ -116,7 +116,8 @@ function init(){
 
     function SaveCredito(e){
         e.preventDefault();// para que no se recargue la pagina
-        $.post("./ajax/CreditoAjax.php?op=SaveOrUpdate", $(this).serialize(), function(r){// llamamos la url por post. function(r). r-> llamada del callback
+        $.post("./ajax/CreditoAjax.php?op=SaveOrUpdate", $(this).serialize(), function(r){
+        // llamamos la url por post. function(r). r-> llamada del callback
             
                 swal("Mensaje del Sistema", r, "success");
                 $("#modalCredito").modal("hide");
@@ -129,7 +130,7 @@ function init(){
     function GetIdVenta() {
 
         $.get("./ajax/CreditoAjax.php?op=GetIdVenta", function(r) {
-                $("#txtIdVentaCred").val(r);
+        $("#txtIdVentaCred").val(r);
             
         })
     }
@@ -146,7 +147,8 @@ function init(){
     	var nombre = $("#cboTipoComprobante").val();
         var idsucursal = $("#txtIdSucursal").val();
 
-            $.getJSON("./ajax/VentaAjax.php?op=GetTipoDocSerieNum", {nombre: nombre,idsucursal: idsucursal}, function(r) {
+            $.getJSON("./ajax/VentaAjax.php?op=GetTipoDocSerieNum",
+             {nombre: nombre,idsucursal: idsucursal}, function(r) {
                 if (r) {
                     $("#txtIdTipoDoc").val(r.iddetalle_documento_sucursal);
                     $("#txtSerieVent").val(r.ultima_serie);
