@@ -35,7 +35,7 @@ function init(){
 
 	function SaveOrUpdate(e){
 		e.preventDefault();
-        // para que no se recargue la pagina
+    // para que no se recargue la pagina
 
         if ($("#txtSerieVent").val() != "" && $("#txtNumeroVent").val() != "") {
             var detalle =  JSON.parse(consultarDet());
