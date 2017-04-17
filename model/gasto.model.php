@@ -1,5 +1,6 @@
 <?php
 require "Conexion.php";	
+
 class GastoModelo
 {
 	private $pdo;
