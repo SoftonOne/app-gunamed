@@ -8,8 +8,7 @@
 			global $conexion;
 			$sw = true;
 			try {
-				
-			
+							
 				$sql = "INSERT INTO pedido(idcliente, idusuario, idsucursal, tipo_pedido, fecha, numero, estado) 
 						VALUES($idcliente, $idusuario, $idsucursal, '$tipo_pedido', curdate(), $numero, 'A')";
 				//var_dump($sql);

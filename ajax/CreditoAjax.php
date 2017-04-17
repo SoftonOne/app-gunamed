@@ -71,7 +71,7 @@
                     "9"=>$reg->total-$reg_total->total_pago,
                     "10"=>($reg->total-$reg_total->total_pago>0)?'<button class="btn btn-success" data-toggle="tooltip" title="Agregar Credito" onclick="AgregarCredito('.$reg->idventa.',\''.$reg->total.'\')"><i class="fa fa-usd"></i> </button>':'<button class="btn btn-warning" data-toggle="tooltip" title="Total Pagado, Puede ver el detalle de credito haciendo click aqui" onclick="AgregarCredito('.$reg->idventa.',\''.$reg->total.'\')"><i class="fa fa-eye"></i> </button>'
                                         
-                    );
+                  );
                 $i++;
             }
 			$results = array(
