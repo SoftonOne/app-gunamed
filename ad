@@ -1,0 +1,146 @@
+[33mcommit b69337a9becb1e35a55dfe64c6bb709d3af9adb6[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Mon Apr 17 18:26:41 2017 +0000
+
+    Gastos
+
+[33mcommit bf2ebd97a7da89aa9285a43821b21ebe12d2f57b[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Mon Apr 17 18:17:59 2017 +0000
+
+    ventas.js
+    
+    ventas.js
+
+[33mcommit ead371be4b21289911f793dd53ac100b80f487a9[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Mon Apr 17 18:13:44 2017 +0000
+
+    actualizando
+    
+    file ventas.js
+
+[33mcommit 29b59e2c796b168dcae2a71f3f00cfc39dd77ec3[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Mon Apr 17 16:49:42 2017 +0000
+
+    Actualizaciones
+    
+    File Credito and Pedido
+
+[33mcommit cf85d50ca65befdc673e1da4fb3423ca05a119c8[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Wed Apr 12 09:08:31 2017 +0000
+
+    Actualizaciones
+    
+    Files Ventas.php; Ventas.js
+
+[33mcommit e530c25444eac5c429e2539f1b0155008f3ae075[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Sat Apr 8 19:25:54 2017 +0000
+
+    archivo ignore
+
+[33mcommit 6787ddbf148bb9dad5f5d83a63fa88e70f9b8bc5[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Sat Apr 8 19:20:02 2017 +0000
+
+    actualizado
+    
+    Ventas,php; ventas.js
+
+[33mcommit 9f988e2d21db4d41565e9f4c7bad5d36b61953e8[m
+Merge: 06091d7 e0e3a31
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Sat Apr 8 19:16:05 2017 +0000
+
+    Merge branch 'master' of https://github.com/SoftonOne/app-gunamed
+
+[33mcommit 06091d78e827cb6ab868be173262c86b53b602e3[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Sat Apr 8 19:15:59 2017 +0000
+
+    Actualizando con el patron Cmposite
+    
+    file; Ventas.js; Ventas.php
+
+[33mcommit e0e3a31a273dd046f03ce29bb4dc498dc6a8d0a1[m
+Author: Otarola <otarolajd04@gmial.com>
+Date:   Fri Apr 7 00:30:31 2017 -0500
+
+    Modificando el Html
+
+[33mcommit 9f8eb05793a8f250abaa22df371b2f4996c87537[m
+Author: Joel JP. Pérez Suárez <joel.perez@TPP.UPEU.EDU.PE>
+Date:   Thu Apr 6 16:28:17 2017 -0500
+
+    modificando algunos códigos
+
+[33mcommit 1eca63f796f9c5b20e36a856dbd423ba8b90e1ec[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Thu Apr 6 16:24:31 2017 +0000
+
+    factura
+
+[33mcommit cc1299fd66678898233d187104e0d25be6e4e8f4[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Thu Apr 6 16:23:04 2017 +0000
+
+    actualizando
+
+[33mcommit b2b89b919f1e2d05462c676be2f75e5bf143b439[m
+Merge: 053d4bc df2f74f
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Thu Apr 6 16:18:30 2017 +0000
+
+    Merge branch 'master' of https://github.com/SoftonOne/app-gunamed
+
+[33mcommit df2f74ff7196b2e8023396e5206fcfce0e82bcb6[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Thu Apr 6 17:17:24 2017 +0000
+
+    Patrón Creator
+
+[33mcommit 053d4bc12ef35f4eca394ca36d095bf868e9b6f1[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Thu Apr 6 16:18:16 2017 +0000
+
+    implementacion patro composite
+    
+    file Veta.js
+
+[33mcommit 65b78c6ee49876bab8f5acc8da6381acdf648766[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Thu Apr 6 12:18:43 2017 +0000
+
+    Patrones
+    
+    Se esta subendo los files con patrones(Singleton, Strategy pattern,
+    Model-View-Controller,Mock objets )
+
+[33mcommit 8dda936b3b1fcf36b00219e3bbff091ba565adda[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Thu Apr 6 11:35:33 2017 +0000
+
+    Modulos
+
+[33mcommit 8bc157673f9e07fa5fc5f889b2a91ef889198003[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Thu Apr 6 13:30:02 2017 +0000
+
+    paquete de model
+
+[33mcommit 32113a4b958149f4b541b68e238d284e38a1a728[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Thu Apr 6 13:23:49 2017 +0000
+
+    Subo los paquetes del proyecto GunaMed
+    
+    Este proyecto es para el curso desarrollo de software colaborativo
+
+[33mcommit 8cc5f7f106b8d07c3e9a38e1cca767256252fd3a[m
+Author: Benavidez Yzquierdo <yzquierdo2009@gmail.com>
+Date:   Thu Apr 6 13:20:26 2017 +0000
+
+    Initial commit
