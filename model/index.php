@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require_once 'gasto.entidad.php';
 require_once 'gasto.model.php';
 require "Conexion.php";	
@@ -34,7 +34,7 @@ if(isset($_REQUEST['action']))
 			$model->Actualizar($alm);
 			
 			echo '<script>alert("Desea actualizar los datos de la tabla:")</script>';
-			echo '<script>alert("Los datos han sido actualizados con exito:")</script>';	
+			echo '<script>alert("Los datos han sido actualizados correctamente:")</script>';	
 	        echo '<script>location.href = "Gastos.php"</script>'; 
     					          
 			break;
