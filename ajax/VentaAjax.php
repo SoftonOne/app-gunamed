@@ -1,8 +1,8 @@
 <?php
 
-	session_start();
+session_start();
 
-	require_once "../model/Venta.php";
+ require_once "../model/Venta.php";
 
 	$objVenta = new Venta();
 
@@ -10,7 +10,7 @@
 
 		case 'SaveOrUpdate':			
 
-			$idpedido = $_POST["idPedido"];
+		    $idpedido = $_POST["idPedido"];
 			$idusuario = $_POST["idUsuario"];
 			$tipo_venta = $_POST["tipo_venta"];
 			$iddetalle_doc_suc = $_POST["iddetalle_doc_suc"];
