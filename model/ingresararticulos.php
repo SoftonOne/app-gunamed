@@ -1,4 +1,5 @@
 <?php
+//patron singleton
 	require "Conexion.php";
 
 			$cont=0;
