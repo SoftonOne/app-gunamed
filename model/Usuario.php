@@ -1,11 +1,6 @@
 <?php
 	require "Conexion.php";
 // patron front controler
-/**
- * Front controller - routes all request and dispatch it to modules.
- * @package FrameWork
- * @subpackage FrontController
- */
 
 	class usuario{
 	
