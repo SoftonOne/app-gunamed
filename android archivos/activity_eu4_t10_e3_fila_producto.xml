@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Titulo"
+        android:id="@+id/u4t10TxtViewTitulo"
+
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#504b4b"
+        android:layout_toStartOf="@+id/u4t10TxtPactual" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tipo"
+        android:id="@+id/u4t10TxtTipo"
+        android:layout_below="@+id/u4t10TxtViewTitulo"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Precio Anterior"
+        android:id="@+id/u4t10TxtPanterior"
+        android:textSize="14dp"
+
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Precio Actual"
+        android:id="@+id/u4t10TxtPactual"
+        android:layout_below="@+id/u4t10TxtPanterior"
+        android:layout_alignEnd="@+id/u4t10TxtPanterior"
+        android:textSize="20dp"
+        android:textColor="#af0606"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Año"
+        android:id="@+id/u4t10TxtAnio"
+        android:layout_below="@+id/u4t10TxtTipo"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar"
+        android:id="@+id/u4t10Adicionar"
+        android:textSize="14dp"
+        android:background="#b51200"
+        android:textColor="#fcf8f8"
+        android:textStyle="bold"
+        android:layout_below="@+id/u4t10TxtAnio"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
