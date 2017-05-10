@@ -1,5 +1,5 @@
 <?php
-// Patron singleton
+// Patron factory
 	require "Conexion.php";
 
 	class articulo{

@@ -1,5 +1,6 @@
 <?php
 	require "Conexion.php";
+// patron front controler
 
 	class usuario{
 	
